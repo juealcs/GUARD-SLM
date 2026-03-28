@@ -157,17 +157,15 @@ done
 ### 5. Inference (HarmBench)
 
 ```bash
-for layer in $(seq 0 31); do
-  python inference.py \
-    --model meta-llama/Llama-2-7b-chat-hf \
-    --svm-path saved_models/llama/llama_layer_${layer}.joblib \
-    --layer ${layer} \
-    --input-file thu-coai/AISafetyLab_Datasets \
-    --hf-subset harmbench \
-    --hf-split standard \
-    --text-key query \
-    --out-dir outputs/llama_harmbench
-done
+python inference.py \
+  --model meta-llama/Llama-2-7b-chat-hf \
+  --svm-path saved_models/llama/llama_layer_15.joblib \
+  --layer 15 \
+  --input-file thu-coai/AISafetyLab_Datasets \
+  --hf-subset harmbench \
+  --hf-split standard \
+  --text-key query \
+  --out-dir outputs/llama_harmbench
 ```
 
 ---
