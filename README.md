@@ -192,11 +192,12 @@ python judge.py \
 ## Citation
 
 ```bibtex
-```
+```bash
+
 @article{mia2026guard,
   title={GUARD-SLM: Token Activation-Based Defense Against Jailbreak Attacks for Small Language Models},
   author={Mia, Md Jueal and Molto, Joaquin and Wu, Yanzhao and Amini, M Hadi},
   journal={arXiv preprint arXiv:2603.28817},
   year={2026}
 }
----
+```
