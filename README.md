@@ -191,7 +191,6 @@ python judge.py \
 
 ## Citation
 
-```bibtex
 ```bash
 
 @article{mia2026guard,
