@@ -6,6 +6,8 @@ GUARD-SLM is a lightweight, inference-time jailbreak defense that detects malici
   <img src="framework.jpg" width="600"/>
 </p>
 
+Paper link: https://arxiv.org/abs/2603.28817
+
 ## Overview
 
 - Detects jailbreak prompts using **representation-space signals**
@@ -192,7 +194,6 @@ python judge.py \
 ## Citation
 
 ```bash
-
 @article{mia2026guard,
   title={GUARD-SLM: Token Activation-Based Defense Against Jailbreak Attacks for Small Language Models},
   author={Mia, Md Jueal and Molto, Joaquin and Wu, Yanzhao and Amini, M Hadi},
